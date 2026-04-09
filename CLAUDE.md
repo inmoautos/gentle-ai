@@ -50,3 +50,27 @@ See `AGENTS.md` for skill routing (issue-creation, branch-pr).
 | TOML backslash on Windows | HIGH | Must escape, known fix in recent commits |
 | GGA upgrade uses git clone | MEDIUM | Changed from go install to git clone |
 | Backup skip directories | HIGH | Pre-upgrade snapshot MUST exclude runtime dirs (projects/, sessions/, plugins/, cache/) via `backupExcludeSubdirs` in executor.go — without this, backup walks 1+ GB of non-config data and hangs |
+
+## Vault Reference (Biblioteca de Conocimiento)
+
+Cuando algo falle con una herramienta del ecosistema, PRIMERO consultar:
+`C:\Users\iUser\repos\claude-workspace\vault\{herramienta}\AGENT.md`
+
+Bibliotecas disponibles: vercel, supabase, n8n, google-sheets, docker-swarm,
+claude-code, windows, nextjs, engram-memory, powershell, inmoautos, villas,
+ios-apple, telegram, traefik, wordpress.
+
+Si el error es nuevo, agregarlo al catalogo despues de resolverlo.
+
+
+## Vault Reference (Biblioteca de Conocimiento)
+
+Cuando algo falle con una herramienta del ecosistema, PRIMERO consultar:
+`C:\Users\iUser\repos\claude-workspace\vault\{herramienta}\AGENT.md`
+
+Bibliotecas disponibles: vercel, supabase, n8n, google-sheets, docker-swarm,
+claude-code, windows, nextjs, engram-memory, powershell, inmoautos, villas,
+ios-apple, telegram, traefik, wordpress.
+
+Si el error es nuevo, agregarlo al catalogo despues de resolverlo.
+
